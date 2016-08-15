@@ -1741,3 +1741,43 @@
     width:700px;
     height:300px;
 }
+
+/*--gallery--*/
+.gallery {
+  padding: 3em 0 5em;
+}
+.gallery-bottom{
+	margin-top:2em;
+}
+.gallery-left img{
+	width:100%;
+}
+.gallery-left:hover img {
+  -webkit-filter: grayscale(100%);
+  opacity:8;
+  transition: all 300ms!important;
+  -webkit-transition: all 300ms!important;
+  -moz-transition: all 300ms!important;
+}
+.gallery-left{
+	position: relative;
+}
+.gallery-grid img{
+	width:100%;
+}
+.gallery-grid:hover img {
+  -webkit-filter: grayscale(100%);
+  opacity:8;
+  transition: all 300ms!important;
+  -webkit-transition: all 300ms!important;
+  -moz-transition: all 300ms!important;
+}
+.gallery-grid{
+	position: relative;
+}
+.gallery-1{
+	margin-top:25px;
+}
+.gallery-1:nth-child(1){
+	margin-top:0;
+}
