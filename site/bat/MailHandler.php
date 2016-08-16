@@ -5,7 +5,7 @@
     $port = "587";
     $username = "";
     $password = "";
-	$owner_email = "jugiraldo1@gmail.com";
+	$owner_email = "sweetcleaning.ab@gmail.com";
 	
 	$messageBody = "";
 	
@@ -40,7 +40,6 @@
 	}
 	
 	if($host=="" or $username=="" or $password==""){
-		$owner_email = $_POST["owner_email"];
 		$headers = 'From:' . $_POST["email"] . "\r\n" . 'Content-Type: text/plain; charset=UTF-8' . "\r\n";
 		$subject = 'A message from your site visitor ' . $_POST["name"];
 		
