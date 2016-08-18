@@ -1314,9 +1314,9 @@
 }
 
 .imageservice{
-    width:300px;    
+    width:500px;    
     height:300px;
-    margin-top:5%;
+    margin-top:10%;
 }
 
 .colorBgService{
@@ -1465,10 +1465,10 @@
 
 @media screen and (min-width:480px){
     .modalDialog > div {
-	    width: 400px;
-        height:80%;
+	    width: 500px;
+        height:100%;
 	    position: relative;
-	    margin: 5% auto;
+	    margin: 1% auto;
 	    padding: 5px 20px 13px 20px;
 	    border-radius: 10px;
 	    background: #fff;
@@ -1738,8 +1738,8 @@
 
 .imagenBox{
 
-    width:700px;
-    height:300px;
+    width:500px;
+    height:350px;
 }
 
 /*--gallery--*/
@@ -1801,4 +1801,15 @@
 .tamañogalery{
     width:550px;
     height:350px;
+}
+
+.textComercial{
+    font-size:1.2em;
+    font-weight:bold;
+    text-align:justify;
+    color:black;
+    text-anchor:start;
+    font-variant:inherit;
+    line-height:25px;
+
 }
