@@ -408,7 +408,14 @@
 
     }
 
+     .menu_bar{
+        display:none;
+    }
     
+    .menu_bar{
+        display:none;
+    }
+
     .grid_1 {
 	    width:8.5%;
     }
@@ -723,6 +730,9 @@
        
     }
 
+     .menu_bar{
+        display:none;
+    }
     
     .grid_1 {
 	    width:7.5%;
@@ -1018,6 +1028,10 @@
 
     }
     
+     .menu_bar{
+        display:none;
+    }
+
     .grid_1 {
 	    width:7.5%;
     }
