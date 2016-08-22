@@ -166,9 +166,11 @@
   -o-background-size: 32px;
   background-size: 32px;
   min-height: 40px;
+  z-index:2;
 }
 .sy-box.sy-loading .sy-slides-wrap, .sy-box.sy-loading .sy-pager {
   visibility: hidden;
+
 }
 
 /* element that wraps the slides */
